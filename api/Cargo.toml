@@ -11,3 +11,4 @@ path = "src/main.rs"
 [dependencies]
 rocket = { version = "0.5.0-rc.2", features = ["json"] }
 mongodb = "2.2.2"
+serde = {version = "1.0", features = ["derive"]}
